@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:AirVentsOrder"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid x:Name="MainGrid">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
@@ -18,10 +18,6 @@
             <MenuItem Header="_Window" />
             <MenuItem Header="_Help" />
         </Menu>
-
-        <DataGrid Grid.Row="1">
-
-        </DataGrid>
-
+        <Grid x:Name="MainGrid"/>
     </Grid>
 </Window>
